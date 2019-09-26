@@ -27,6 +27,14 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
+    /* width: 20px; */
+    display: inline-block;
+}
+
+.main-header__brand img {
+    height: 100%;
+    /* width: 100%; */
 }
 
 .main-nav {
