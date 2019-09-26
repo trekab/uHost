@@ -1,9 +1,10 @@
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
-    background: url("../images/plans-background.jpg");
+    background: url("../images/plans-background.jpg") center/cover;
+    filter: grayscale(40%);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -12,7 +13,7 @@ main {
 
 .package {
     width: 80%;
-    margin: 16px 0;
+    margin: 1rem 0;
     border: 4px solid #0e4f1f;
     border-left: none;
     position: relative;
@@ -29,18 +30,18 @@ main {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .package__badge {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
+    margin: 1.2rem;
     font-size: 12px;
     color: white;
     background: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .package__subtitle {
@@ -48,9 +49,9 @@ main {
 }
 
 .package__info {
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
 }
