@@ -12,14 +12,21 @@ main {
   }*/
 
   .testimonial__image-container {
-    width: 100%;
+    width: 60%;
     max-width: 40rem;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    transform: skew(20deg);
+    overflow: hidden;
+  }
+
+  #customer-1:hover .testimonial__image-container {
+    animation: flip-customer 1s ease-out forwards;
   }
 
   .testimonial__image {
     width: 100%;
     vertical-align: top;
+    transform: skew(-20deg) scale(1.4);
   }
   
   .testimonial__info {
@@ -76,6 +83,18 @@ main {
 
     .testimonial__info {
       width: 30%;
+    }
+  }
+
+  @keyframes flip-customer {
+    0% {
+      transform: rotateY(0) skew(20deg);
+    }
+    50% {
+      transform: rotateY(160deg) skew(20deg);
+    }
+    100% {
+      transform: rotateY(360deg) skew(20deg);
     }
   }
   
