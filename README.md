@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-You can download the zipped file of the project, extract it, and simply double-click the index.html file in the root folder in order to have it open in your default browser. You can alternatively just click the live demo link below to view the project.
+You can download the zipped file of the project, extract it, and simply double-click the `index.html` file in the root folder in order to have it open in your default browser. You can alternatively just click the `Live Demo Link` above to view the project.
 
 ## Authors
 
