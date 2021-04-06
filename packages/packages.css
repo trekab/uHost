@@ -35,7 +35,6 @@ main {
 .package:active {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: #ff5454;
-    /* border-color: #ff5454 !important; */
     animation: push-up 1s ease-out forwards;
 }
 
@@ -71,7 +70,6 @@ main {
     color: #0e4f1f;
     background: white;
     font-size: 1.2rem;
-    /* font-style font-variant font-weight font-size/line-height font-family*/
 }
 
 .clearfix {

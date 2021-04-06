@@ -34,7 +34,6 @@ body {
 }
 
 main {
-  /* grid-row: 2 / 3; */
   grid-area: main;
 }
 
@@ -90,7 +89,7 @@ main {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: var(--dark-green);
   text-decoration: none;
   font-weight: bold;
   /* width: 20px; */
@@ -99,7 +98,6 @@ main {
 .main-header__brand img {
   height: 2.5rem;
   vertical-align: middle;
-  /* width: 100%; */
 }
 
 .main-nav {
@@ -120,7 +118,7 @@ main {
 .main-nav__item a,
 .mobile-nav__item a {
   text-decoration: none;
-  color: var(--dark-green);
+  color: var(--dark-green, #0e4f1f);
   font-weight: bold;
   padding: 0.2rem 0;
 }
@@ -166,7 +164,6 @@ main {
   background: black;
   padding: 2rem;
   margin-top: 3rem;
-  /* grid-row: 3 / 4; */
   grid-area: footer;
 }
 
@@ -229,7 +226,7 @@ main {
   background: var(--dark-green, #0e4f1f);
   color: white;
   font: inherit;
-  border: 1.5px solid var(--dark-green);
+  border: 1.5px solid var(--dark-green, #0e4f1f);
   padding: 0.5rem;
   border-radius: 8px;
   font-weight: bold;
